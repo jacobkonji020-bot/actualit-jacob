@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+    color: #1e293b;
+}
+
+header {
+    background-color: #123b63;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    background-color: white;
+    flex-wrap: wrap;
+}
+
+button {
+    border: none;
+    border-radius: 6px;
+    background-color: #2563eb;
+    color: white;
+    padding: 10px 16px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+main {
+    max-width: 900px;
+    margin: 25px auto;
+    padding: 0 20px;
+}
+
+article {
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 18px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+article h3 {
+    color: #123b63;
+}
+
+article p {
+    line-height: 1.6;
+}
+#formulaire-section {
+    max-width: 900px;
+    margin: 25px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+#formulaire-section h2 {
+    margin-top: 0;
+    color: #123b63;
+}
+
+#formulaire-article {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+#formulaire-article input,
+#formulaire-article textarea,
+#formulaire-article select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+#formulaire-article textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+#formulaire-article input:focus,
+#formulaire-article textarea:focus,
+#formulaire-article select:focus {
+    outline: 2px solid #2563eb;
+    border-color: #2563eb;
+}
+
+#formulaire-article button {
+    align-self: flex-start;
+}

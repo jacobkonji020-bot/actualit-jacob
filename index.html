@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actualités de Jacob</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Actualités de Jacob</h1>
+        <p>Les informations importantes, simplement.</p>
+    </header>
+
+    <nav>
+        <button data-category="Toutes">Toutes</button>
+        <button data-category="Afrique">Afrique</button>
+        <button data-category="Monde">Monde</button>
+        <button data-category="Sport">Sport</button>
+    </nav>
+<section id="formulaire-section">
+    <h2>Ajouter une actualité</h2>
+
+    <form id="formulaire-article">
+        <input
+            type="text"
+            id="titre"
+            placeholder="Titre de l'article"
+            required
+        >
+
+        <textarea
+            id="texte"
+            placeholder="Contenu de l'article"
+            required
+        ></textarea>
+
+        <select id="categorie" required>
+            <option value="">Choisir une rubrique</option>
+            <option value="Afrique">Afrique</option>
+            <option value="Monde">Monde</option>
+            <option value="Sport">Sport</option>
+        </select>
+
+        <button type="submit">Ajouter l'article</button>
+    </form>
+</section>
+    <h2 id="titre-rubrique">Dernières infos</h2>
+
+  <main id="liste-articles"></main>
+
+    <script src="script.js"></script>
+</body>
+</html>

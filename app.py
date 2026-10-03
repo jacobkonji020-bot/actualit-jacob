@@ -1,0 +1,1 @@
+print("Bravo, mon premier script Python fonctionne !")
